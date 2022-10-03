@@ -33,8 +33,8 @@ const countDown = document.querySelectorAll('.time p');
 const deadline = document.querySelector('.deadline')
 
 
-const futureDate = new Date(2021, 09, 06, 10, 00, 0);
-const endingDate = new Date(2021, 09, 09, 10, 00, 0);
+const futureDate = new Date(2022, 09, 06, 10, 00, 0);
+const endingDate = new Date(2022, 09, 09, 10, 00, 0);
 
 
 const year = futureDate.getFullYear();
@@ -96,7 +96,7 @@ const getCountDownStart = () =>{
  });
  if(countDate < 0){
    clearInterval(counter)
-   deadline.innerHTML = `<h2>Congraduations  <br> Dr  and Mrs Dr Joseph lastName</h2>`;
+   deadline.innerHTML = `<h2>Congraduations  <br> Dr  and Mrs Dr Joseph</h2>`;
  }
   
   
