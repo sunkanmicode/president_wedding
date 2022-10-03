@@ -27,12 +27,15 @@ const months = [
 
 
 const wedDate = document.querySelector('.wed-date');
+const endDate = document.querySelector(".end-date");
 const outcome = document.querySelector('h3');
 const countDown = document.querySelectorAll('.time p');
 const deadline = document.querySelector('.deadline')
 
 
-const futureDate = new Date(2022, 09, 09, 10, 00, 0);
+const futureDate = new Date(2021, 09, 06, 10, 00, 0);
+const endingDate = new Date(2021, 09, 09, 10, 00, 0);
+
 
 const year = futureDate.getFullYear();
 const hours = futureDate.getHours();
@@ -43,8 +46,18 @@ month = months[month];
 let weekday = futureDate.getDay();
 weekday = weekdays[weekday];
 
+const year2 = endingDate.getFullYear();
+const hours2 = endingDate.getHours();
+const mins2 = endingDate.getMinutes();
+const date2 = endingDate.getDate();
+let month2 = endingDate.getMonth();
+month2 = months[month2];
+let weekday2 = endingDate.getDay();
+weekday2 = weekdays[weekday2];
 
-wedDate.innerHTML = `Date: ${weekday}  ${date}th ${month} ${year}, ${hours}:0${mins}am`
+
+wedDate.innerHTML = ` ${weekday}  ${date}th ${month} ${year}, ${hours}:0${mins}am`
+endDate.innerHTML = ` ${weekday2}  ${date2}th ${month2} ${year2}, ${hours2}:0${mins2}am`;
 
 const futureTime = futureDate.getTime();
 
@@ -83,7 +96,7 @@ const getCountDownStart = () =>{
  });
  if(countDate < 0){
    clearInterval(counter)
-   deadline.innerHTML = `<h1>Congraduations  <br> Mr and Mrs Olasunkanmi Oguntimehin</h1>`
+   deadline.innerHTML = `<h2>Congraduations  <br> Dr  and Mrs Dr Joseph lastName</h2>`;
  }
   
   
@@ -311,12 +324,12 @@ const besties = [
     name: "Blaise paschal Uzoma",
     postion: "Chairman SCHUZOMAHN HOLDINGS, & CO FOUNDER of MELODY AUTOS.",
   },
-  {
-    id: 12,
-    images: "./img/guy8.jpg",
-    name: "Jumbo Ubonge",
-    postion: "Medical Doctor",
-  },
+  // {
+  //   id: 12,
+  //   images: "./img/guy8.jpg",
+  //   name: "Jumbo Ubong",
+  //   postion: "Medical Doctor",
+  // },
   {
     id: 12,
     images: "./img/guy9.jpg",
@@ -335,6 +348,60 @@ const besties = [
     name: "Kingsman ",
     postion: "CEO KV-STAR world",
   },
+  {
+    id: 12,
+    images: "./img/guy12.jpg",
+    name: "Essien God’spower Unwana",
+    postion: "A medical Doctor Clinician at Heartland Alliance",
+  },
+  {
+    id: 12,
+    images: "./img/guy13.jpg",
+    name: "Ukeme Akpabio",
+    postion: "Medical Doctor",
+  },
+  {
+    id: 12,
+    images: "./img/guy14.jpg",
+    name: "Ray Johnson. ",
+    postion: "Fashion Designer | Digital Nomad, Creative Director.",
+  },
+  {
+    id: 12,
+    images: "./img/guy15.jpg",
+    name: "CEO of Aresclothier",
+    postion: "A Quantity surveyor and a stylist",
+  },
+  {
+    id: 12,
+    images: "./img/guy16.jpg",
+    name: "Grant Triston ",
+    postion: "Content creator Owner of TRIMMED",
+  },
+  {
+    id: 12,
+    images: "./img/guy17.jpg",
+    name: "Akwa Joseph",
+    postion: "Entrepreneur",
+  },
+  {
+    id: 12,
+    images: "./img/guy18.jpg",
+    name: "Robert Umoh",
+    postion: "Business Development Manager, Rodees Limited",
+  },
+  {
+    id: 12,
+    images: "./img/guy19.jpg",
+    name: "Ifiok Abasi Ekpenyong",
+    postion: "Medical Doctor",
+  },
+  // {
+  //   id: 12,
+  //   images: "./img/guy16.jpg",
+  //   name: "Grant Triston ",
+  //   postion: "Content creator Owner of TRIMMED",
+  // },
 ];
 
 

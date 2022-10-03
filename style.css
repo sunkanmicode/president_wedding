@@ -1,6 +1,10 @@
 :root{
-  --pri-clr1: #EC9EC0;
-  --pri-clr2: #EBE0D0;
+  /* --pri-clr1: #EC9EC0; */
+  /* --pri-clr2: #EBE0D0; */
+  --pri-clr1: #d8b9ff;
+  --pri-clr2: #964B00;
+  --pri-clr3: #333;
+  --pri-clr4: #fff;
 }
 *{
   margin: 0;
@@ -135,7 +139,7 @@ nav ul li a{
 #invitation {
   width: 100%;
   padding: 70px 0;
-  background-color:var(--pri-clr2);
+  /* background-color:var(--pri-clr2); */
 }
 .title-text{
   text-align: center;
@@ -221,8 +225,9 @@ hr{
 
 #couple {
   width: 100%;
-  padding: 70px 0;
-  /* background-color: #efefef; */
+  padding: 50px 0;
+  background-color: var(--pri-clr3);
+  /* color: #fff; */
 }
 .couple-bestie h1{
   text-align: center;  
@@ -271,7 +276,7 @@ hr{
   transform: scale(1.1);
 }
 .col-3 h6{
-  color: var(--pri-clr1);
+  color: var(--pri-clr4);
 }
 .groomParam{
   color: var(--pri-clr2);
@@ -293,6 +298,7 @@ hr{
   width: 100%;
   padding: 70px 0;
   font-family: 'Kaushan Script', cursive;
+  background-color: var(--pri-clr3);
 }
 .story-box{
   width: 80%;
@@ -306,15 +312,19 @@ hr{
   flex-basis: 50%;
   font-family: 'Shadows Into Light', cursive;
 }
+.storyTitle{
+  color: var(--pri-clr4);
+}
 .story h1{
   text-align: center;
   margin-bottom: 10px;
   font-weight: 100%;
-  color: var(--pri-clr2);
+  color: var(--pri-clr4);
 }
 .story p{
   padding: 0 20px;
   text-align: justify;
+  color: var(--pri-clr4);
 
 }
 .story-img{
@@ -339,7 +349,7 @@ hr{
 #arrangement {
   width: 100%;
   padding: 70px 0;
-  background-color: var(--pri-clr2);
+  /* background-color: var(--pri-clr2); */
   font-family: 'Kaushan Script', cursive;
 }
 .arrangement-row{
