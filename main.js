@@ -178,16 +178,19 @@ const besties = [
     id: 2,
     images: "./img/img5.jpg",
     name: "Mickhee",
+    postion: null,
   },
   {
     id: 3,
     images: "./img/img6.jpg",
     name: "Aidee",
+    postion: null,
   },
   {
     id: 4,
     images: "./img/img7.jpg",
     name: "Lizzy Udo",
+    postion: null,
   },
   // {
   //   id: 5,
@@ -198,71 +201,139 @@ const besties = [
     id: 6,
     images: "./img/img9.jpg",
     name: "Princess",
+    postion: null,
   },
   {
     id: 7,
     images: "./img/img10.jpg",
     name: "Sunshine",
+    postion: null,
   },
   {
     id: 8,
     images: "./img/img11.jpg",
     name: "Justpretty",
+    postion: null,
   },
   {
     id: 9,
     images: "./img/img12.jpg",
     name: "Joan",
+    postion: null,
   },
   {
     id: 10,
     images: "./img/img13.jpg",
     name: "Kelsy",
+    postion: null,
   },
   {
     id: 11,
     images: "./img/img14.jpg",
     name: "Havilah",
+    postion: null,
   },
   {
     id: 12,
     images: "./img/img15.png",
     name: "Helene",
+    postion: null,
   },
   {
     id: 12,
     images: "./img/img16.jpg",
     name: "Blairson",
+    postion: null,
   },
   {
     id: 12,
     images: "./img/img17.jpg",
     name: "QueenBey",
+    postion: null,
   },
   {
     id: 12,
     images: "./img/img18.jpg",
     name: "Diamond",
+    postion: null,
   },
   {
     id: 12,
     images: "./img/img19.jpg",
     name: "Investor",
+    postion: null,
   },
   {
     id: 12,
     images: "./img/img20.jpg",
     name: "Wealth",
+    postion: null,
   },
   {
     id: 12,
-    images: "./img/photo (13).jpg",
-    name: "Josephine",
+    images: "./img/guy1.jpg",
+    name: "Ezekiel-Hart Michael",
+    postion: "Supretendent of immigration service",
   },
   {
     id: 12,
-    images: "./img/photo (13).jpg",
-    name: "Josephine",
+    images: "./img/guy2.jpg",
+    name: "Ojike Francis Onyedikachi",
+    postion: "Medical Doctor",
+  },
+  {
+    id: 12,
+    images: "./img/guys3.jpg",
+    name: "Blessing Menim",
+    postion: "SA (Media) Ministry of Information and Strategy",
+  },
+  {
+    id: 12,
+    images: "./img/guy5.jpg",
+    name: "OJIAKO, DARLINGTON CHRISTIAN ",
+    postion: "MD/CEO, COMPANY ZEE DARLS PHARMACEUTICAL LIMITED",
+  },
+  {
+    id: 12,
+    images: "./img/guy4.jpg",
+    name: "Dr Akaka Bassey",
+    postion: "State Clinical Mentor Ministry of Health Delta State",
+  },
+  {
+    id: 12,
+    images: "./img/guy6.jpg",
+    name: "BIZZY",
+    postion: " ED Technical, RAEBONY Associates, Nigeria.",
+  },
+  {
+    id: 12,
+    images: "./img/guy7.jpg",
+    name: "Blaise paschal Uzoma",
+    postion: "Chairman SCHUZOMAHN HOLDINGS, & CO FOUNDER of MELODY AUTOS.",
+  },
+  {
+    id: 12,
+    images: "./img/guy8.jpg",
+    name: "Jumbo Ubonge",
+    postion: "Medical Doctor",
+  },
+  {
+    id: 12,
+    images: "./img/guy9.jpg",
+    name: "Mfoniso Atan Strota",
+    postion: "Software engineer,Gadget/property Sales agent.",
+  },
+  {
+    id: 12,
+    images: "./img/guy10.jpg",
+    name: "BIG WIZ",
+    postion: "BUSINESS MAN(GADGETS)",
+  },
+  {
+    id: 12,
+    images: "./img/guy11.jpg",
+    name: "Kingsman ",
+    postion: "CEO KV-STAR world",
   },
 ];
 
@@ -282,7 +353,8 @@ const displayPictures = () =>{
     return `<div class="col-3">
             <img src="${photo.images}" alt="">
             <p>${photo.name}</p>
-            </div> `
+            <p>${photo.postion}</p>
+            </div> `;
   })
   showPhoto = displayPhoto.join('')
     bestiesGallery.innerHTML = showPhoto;
