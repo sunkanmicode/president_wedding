@@ -335,7 +335,7 @@ const besties = [
   },
   {
     id: 12,
-    images: "./img/guys3.jpg",
+    images: "./img/guy3.jpg",
     name: "Blessing Menim",
     postion: "SA (Media) Ministry of Information and Strategy",
   },
@@ -419,7 +419,7 @@ const besties = [
   },
   {
     id: 12,
-    images: "./img/guy17.jpg",
+    images: "./img/guy17.jpeg",
     name: "Akwa Joseph",
     postion: "Entrepreneur",
   },
