@@ -1,6 +1,6 @@
 :root{
   /* --pri-clr1: #EC9EC0; */
-  /* --pri-clr2: #EBE0D0; */
+  --pri-clr5: #EBE0D0;
   --pri-clr1: #d8b9ff;
   --pri-clr2: #964B00;
   --pri-clr3: #333;
@@ -139,7 +139,7 @@ nav ul li a{
 #invitation {
   width: 100%;
   padding: 70px 0;
-  /* background-color:var(--pri-clr2); */
+  background-color:var(--pri-clr5);
 }
 .title-text{
   text-align: center;
@@ -349,7 +349,7 @@ hr{
 #arrangement {
   width: 100%;
   padding: 70px 0;
-  /* background-color: var(--pri-clr2); */
+  background-color: var(--pri-clr5);
   font-family: 'Kaushan Script', cursive;
 }
 .arrangement-row{
