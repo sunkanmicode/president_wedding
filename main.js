@@ -119,66 +119,105 @@ sideNav.addEventListener('click', () => {
 });
 
 const pictures = [
- 
   {
     id: 6,
     category: "intro",
-    image: "./img/pic(6).jpg"
+    image: "./img/ov1.jpg",
   },
   {
     id: 7,
     category: "intro",
-    image: "./img/pic(7).jpg"
+    image: "./img/ov2.jpg",
   },
   {
     id: 8,
     category: "intro",
-    image: "./img/pic(8).jpg"
+    image: "./img/ov3.jpg",
   },
   {
     id: 14,
     category: "intro",
-    image: "./img/pic(18).jpg"
+    image: "./img/ov4.jpg",
   },
   {
     id: 15,
     category: "All",
-    image: "./img/pic(13).jpg"
+    image: "./img/ov5.jpg",
   },
   {
     id: 16,
     category: "All",
-    image: "./img/pic(14).jpg"
+    image: "./img/ov6.jpg",
   },
   {
     id: 9,
     category: "intro",
-    image: "./img/pic(12).jpg"
+    image: "./img/ov7.jpg",
   },
   {
     id: 10,
     category: "intro",
-    image: "./img/pic(10).jpg"
+    image: "./img/ov8.jpg",
   },
   {
     id: 13,
     category: "intro",
-    image: "./img/pic(11).jpg"
+    image: "./img/ov9.jpg",
   },
   {
     id: 3,
     category: "All",
-    image: "./img/pic(3).jpg"
+    image: "./img/ov10.jpg",
   },
   {
     id: 4,
     category: "All",
-    image: "./img/pic(4).jpg"
+    image: "./img/ov11.jpg",
+  },
+  // {
+  //   id: 5,
+  //   category: "All",
+  //   image: "./img/ov12.jpg",
+  // },
+  {
+    id: 5,
+    category: "All",
+    image: "./img/ov13.jpg",
   },
   {
     id: 5,
     category: "All",
-    image: "./img/pic(5).jpg"
+    image: "./img/ov14.jpg",
+  },
+  {
+    id: 5,
+    category: "All",
+    image: "./img/ov15.jpg",
+  },
+  {
+    id: 5,
+    category: "All",
+    image: "./img/ov16.jpg",
+  },
+  {
+    id: 5,
+    category: "All",
+    image: "./img/ov17.jpg",
+  },
+  {
+    id: 5,
+    category: "All",
+    image: "./img/ov18.jpg",
+  },
+  {
+    id: 5,
+    category: "All",
+    image: "./img/ov19.jpg",
+  },
+  {
+    id: 5,
+    category: "All",
+    image: "./img/pic(5).jpg",
   },
 ];
 const besties = [
