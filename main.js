@@ -33,7 +33,7 @@ const countDown = document.querySelectorAll('.time p');
 const deadline = document.querySelector('.deadline')
 
 
-const futureDate = new Date(2022, 09, 06, 10, 00, 0);
+const futureDate = new Date(2022, 09, 06, 12, 00, 0);
 const endingDate = new Date(2022, 09, 09, 10, 00, 0);
 
 
@@ -56,7 +56,7 @@ let weekday2 = endingDate.getDay();
 weekday2 = weekdays[weekday2];
 
 
-wedDate.innerHTML = ` ${weekday}  ${date}th ${month} ${year}, ${hours}:0${mins}am`
+wedDate.innerHTML = ` ${weekday}  ${date}th ${month} ${year}, ${hours}:0${mins}pm`
 endDate.innerHTML = ` ${weekday2}  ${date2}th ${month2} ${year2}, ${hours2}:0${mins2}am`;
 
 const futureTime = futureDate.getTime();
@@ -230,19 +230,19 @@ const besties = [
     id: 2,
     images: "./img/img5.jpg",
     name: "Mickhee",
-    postion: null,
+    postion: "student and a chef",
   },
   {
     id: 3,
     images: "./img/img6.jpg",
     name: "Aidee",
-    postion: null,
+    postion: "student,CEO wearidara",
   },
   {
     id: 4,
     images: "./img/img7.jpg",
     name: "Lizzy Udo",
-    postion: null,
+    postion: "makeup artist",
   },
   // {
   //   id: 5,
@@ -253,73 +253,73 @@ const besties = [
     id: 6,
     images: "./img/img9.jpg",
     name: "Princess",
-    postion: null,
+    postion: "Realtor/business enterpreneur",
   },
   {
     id: 7,
     images: "./img/img10.jpg",
     name: "Sunshine",
-    postion: null,
+    postion: "Makeup artist",
   },
   {
     id: 8,
     images: "./img/img11.jpg",
     name: "Justpretty",
-    postion: null,
+    postion: "Hair stylist",
   },
   {
     id: 9,
     images: "./img/img12.jpg",
     name: "Joan",
-    postion: null,
+    postion: "Public Health officer",
   },
   {
     id: 10,
     images: "./img/img13.jpg",
     name: "Kelsy",
-    postion: null,
+    postion: "Realtor",
   },
   {
     id: 11,
     images: "./img/img14.jpg",
     name: "Havilah",
-    postion: null,
+    postion: "Realtor and a fashion Designer",
   },
   {
     id: 12,
     images: "./img/img15.png",
     name: "Helene",
-    postion: null,
+    postion: "Data analyst(Tech)",
   },
   {
     id: 12,
     images: "./img/img16.jpg",
     name: "Blairson",
-    postion: null,
+    postion: "Business Enterpreneur",
   },
   {
     id: 12,
     images: "./img/img17.jpg",
     name: "QueenBey",
-    postion: null,
+    postion: "Model",
   },
   {
     id: 12,
     images: "./img/img18.jpg",
     name: "Diamond",
-    postion: null,
+    postion: "CEO Tonia bedding and interiors",
   },
   {
     id: 12,
     images: "./img/img19.jpg",
     name: "Investor",
-    postion: null,
+    postion: "Lawyer",
   },
   {
     id: 12,
     images: "./img/img20.jpg",
     name: "Wealth",
-    postion: null,
+    postion: "Nurse",
   },
   {
     id: 12,
