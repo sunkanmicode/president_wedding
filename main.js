@@ -435,6 +435,36 @@ const besties = [
     name: "Ifiok Abasi Ekpenyong",
     postion: "Medical Doctor",
   },
+  {
+    id: 12,
+    images: "./img/guy20.jpg",
+    name: "Kufre",
+    postion: "CEO @blinzxstitches A Quantity surveyor",
+  },
+  {
+    id: 12,
+    images: "./img/guy21.jpg",
+    name: "Alhaji Cashwire.",
+    postion: "Bureau de change",
+  },
+  {
+    id: 12,
+    images: "./img/guy22.jpg",
+    name: "Daniel Akwaima Ekpo",
+    postion: "Consultant, A Data Analyst ( Tech )",
+  },
+  {
+    id: 12,
+    images: "./img/guy23.jpg",
+    name: "Chef Iykay Monday",
+    postion: "CEO Iykay's Belle Matters",
+  },
+  {
+    id: 12,
+    images: "./img/guy24.jpg",
+    name: "Victor isong",
+    postion: "Data analyst",
+  },
   // {
   //   id: 12,
   //   images: "./img/guy16.jpg",
