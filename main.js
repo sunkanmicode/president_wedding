@@ -244,11 +244,11 @@ const pictures = [
     category: "All",
     image: "./img/ov25.jpg",
   },
-  // {
-  //   id: 5,
-  //   category: "All",
-  //   image: "./img/ov26.png",
-  // },
+  {
+    id: 5,
+    category: "All",
+    image: "./img/ov26.png",
+  },
   // {
   //   id: 5,
   //   category: "All",
