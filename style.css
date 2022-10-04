@@ -255,7 +255,7 @@ hr{
     width: 100%;
   padding-top: 50px;
   font-family: 'Kaushan Script', cursive;
-  /* background-color: var(--pri-clr3); */
+  background-color: var(--pri-clr5);
 
   }
 
@@ -266,7 +266,7 @@ hr{
 #couple {
   width: 100%;
   padding-top: 50px;
-  background-color: var(--pri-clr3);
+  background-color: var(--pri-clr5);
   /* color: #fff; */
 }
 .couple-bestie h1{
