@@ -502,7 +502,7 @@ const besties = [
   },
   {
     id: 12,
-    images: "./img/guy17.jpg",
+    images: "./img/guy25.jpg",
     name: "NWADINOBI WILLIAMS",
     postion: "UX/UI DESIGNER",
   },
