@@ -254,16 +254,6 @@ const pictures = [
   //   category: "All",
   //   image: "./img/pic(5).jpg",
   // },
-  // {
-  //   id: 5,
-  //   category: "All",
-  //   image: "./img/pic(5).jpg",
-  // },
-  // {
-  //   id: 5,
-  //   category: "All",
-  //   image: "./img/pic(5).jpg",
-  // },
 ];
 const besties = [
   // {
@@ -509,6 +499,12 @@ const besties = [
     images: "./img/guy24.jpg",
     name: "Victor isong",
     postion: "Data analyst",
+  },
+  {
+    id: 12,
+    images: "./img/guy17.jpg",
+    name: "NWADINOBI WILLIAMS",
+    postion: "UX/UI DESIGNER",
   },
   // {
   //   id: 12,
