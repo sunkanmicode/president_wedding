@@ -339,7 +339,7 @@ hr{
   width: 100%;
   padding-bottom: 50px;
   font-family: 'Kaushan Script', cursive;
-  background-color: var(--pri-clr3);
+  background-color: var(--pri-clr5);
 }
 .story-box{
   width: 80%;
@@ -354,18 +354,19 @@ hr{
   font-family: 'Shadows Into Light', cursive;
 }
 .storyTitle{
-  color: var(--pri-clr4);
+  color: var(--pri-clr3);
+  padding-top: 20px;
 }
 .story h1{
   text-align: center;
   margin-bottom: 10px;
   font-weight: 100%;
-  color: var(--pri-clr4);
+  color: var(--pri-clr3);
 }
 .story p{
   padding: 0 20px;
   text-align: justify;
-  color: var(--pri-clr4);
+  color: var(--pri-clr3);
 
 }
 .story-img{
