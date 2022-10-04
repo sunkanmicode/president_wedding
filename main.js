@@ -217,8 +217,53 @@ const pictures = [
   {
     id: 5,
     category: "All",
-    image: "./img/pic(5).jpg",
+    image: "./img/ov20.jpg",
   },
+  {
+    id: 5,
+    category: "All",
+    image: "./img/ov21.png",
+  },
+  {
+    id: 5,
+    category: "All",
+    image: "./img/ov22.jpg",
+  },
+  {
+    id: 5,
+    category: "All",
+    image: "./img/ov23.jpg",
+  },
+  {
+    id: 5,
+    category: "All",
+    image: "./img/ov24.png",
+  },
+  {
+    id: 5,
+    category: "All",
+    image: "./img/ov25.jpg",
+  },
+  // {
+  //   id: 5,
+  //   category: "All",
+  //   image: "./img/ov26.png",
+  // },
+  // {
+  //   id: 5,
+  //   category: "All",
+  //   image: "./img/pic(5).jpg",
+  // },
+  // {
+  //   id: 5,
+  //   category: "All",
+  //   image: "./img/pic(5).jpg",
+  // },
+  // {
+  //   id: 5,
+  //   category: "All",
+  //   image: "./img/pic(5).jpg",
+  // },
 ];
 const besties = [
   // {
