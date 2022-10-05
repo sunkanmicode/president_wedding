@@ -243,6 +243,28 @@ hr{
     flex-basis: 100%;
   }
 }
+/* wedding-programme */
+#wedding-programme{
+  width: 100%;
+  padding-top: 50px;
+  font-family: 'Kaushan Script', cursive;
+  background-color: var(--pri-clr4);
+}
+/* wedding-programme */
+/* wedding-Vendors */
+#wedding-Vendors{
+  width: 100%;
+  padding-top: 50px;
+  font-family: 'Kaushan Script', cursive;
+  background-color: var(--pri-clr4);
+
+}
+.vendorText{
+  width: 70px;
+  height: 70px;
+  background-color: red;
+}
+/* wedding-Vendors */
 
 /* gift and donation */
 
@@ -521,7 +543,7 @@ hr{
   font-family: 'Kaushan Script', cursive;
 }
 
-.photo-gallery{
+.photo-gallery, .vendor-list{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto;
@@ -541,14 +563,17 @@ hr{
 .col-4 img:hover{
   transform: scale(1.4);
 }
+
 @media screen and (max-width: 600px){
-  .photo-gallery{
+  .photo-gallery, .vendor-list{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     /* margin-left: 10%; */
   }
 }
+
+
 
 footer{
   background-color: #333;

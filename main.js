@@ -109,6 +109,7 @@ const sideNav = document.querySelector('.sideNav');
 const manuBtn = document.querySelector('.manuBtn');
 const photoGallery = document.querySelector('.photo-gallery');
 const bestiesGallery = document.querySelector('.besties-gallery')
+const vendorList = document.querySelector(".vendor-list");
 
 manuBtn.addEventListener('click', () => {
   sideNav.classList.toggle('showNav')
@@ -513,6 +514,68 @@ const besties = [
   //   postion: "Content creator Owner of TRIMMED",
   // },
 ];
+const vendors = [
+  {
+    name: "Bride’s Vocalist ",
+    desc: "Preshstagram - Lagos",
+  },
+  {
+    name: "Groom’s singer ",
+    desc: "Maxine - Uyo @maxinevictor",
+  },
+  {
+    name: "DJ",
+    desc: "Slimvee - Enugu",
+  },
+  {
+    name: "Decoration Lightening ",
+    desc: "Sonance multimedia -Enugu",
+  },
+  {
+    name: "Decoration Effects ",
+    desc: "Grand effect and multimedia360- Enugu",
+  },
+  {
+    name: "Ushers ",
+    desc: "Mirabee Ushers - Uyo",
+  },
+  {
+    name: "Cake Designer",
+    desc: "Barter splash - Uyo",
+  },
+  {
+    name: "Photography ",
+    desc: "Sabie gal - Lagos, David Ovu - Uyo",
+  },
+  {
+    name: "Videography",
+    desc: "Sir Films - Lagos",
+  },
+  {
+    name: "Mr Avid",
+    desc: "Bridal Fashion videographer ",
+  },
+  {
+    name: "Wedding MC",
+    desc: "Who Kes- Calabar, MC Governor - Uyo",
+  },
+  {
+    name: "Event planner ",
+    desc: "Vogue Events- Uyo ",
+  },
+  {
+    name: "Bridal stylist",
+    desc: "Favor Akpan of Concordia Styling - Uyo",
+  },
+  {
+    name: "Couple's Custom made Wedding Rings",
+    desc: "Boz Diamonds - Lagos ",
+  },
+  // {
+  //   name: "DJ",
+  //   desc: "Slimvee - Enugu",
+  // },
+];
 
 
 window.addEventListener('DOMContentLoaded', ()=>{
@@ -533,10 +596,20 @@ const displayPictures = () =>{
             <p>${photo.postion}</p>
             </div> `;
   })
+  const displayVendor = vendors.map((vendor)=>{
+    return `<div class="col-5">
+            <p>${vendor.name}</p>
+            <p>${vendor.desc}</p>
+          </div>`;
+  })
+
+  
   showPhoto = displayPhoto.join('')
     bestiesGallery.innerHTML = showPhoto;
   showPicture = displayPic.join('')
     photoGallery.innerHTML = showPicture;
+    showVendor = displayVendor.join('')
+    vendorList.innerHTML = showVendor;
 }
 
 
