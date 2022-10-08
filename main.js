@@ -728,6 +728,10 @@ const vendors = [
     desc: "U3U  - Uyo,Venus security - Uyo",
   },
   // {
+  //   name: "Website design",
+  //   desc: "Sunkanmi, Software Engineer, Abuja",
+  // },
+  // {
   //   name: "DJ",
   //   desc: "Slimvee - Enugu",
   // },

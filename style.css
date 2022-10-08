@@ -584,7 +584,7 @@ hr{
   margin: 0 0 50px 50px;
   justify-content: center;
   align-items: center;
-  background-color: var(--pri-clr1);
+  background-color: #555;
   border-radius: 20px;
 
  }
