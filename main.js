@@ -96,7 +96,7 @@ const getCountDownStart = () =>{
  });
  if(countDate < 0){
    clearInterval(counter)
-   deadline.innerHTML = `<h2>Congraduations  <br> Dr  and Mrs Dr Joseph</h2>`;
+   deadline.innerHTML = `<h2>Congraduations  <br> Dr  and Mrs Joseph</h2>`;
  }
   
   
@@ -571,6 +571,162 @@ const vendors = [
     name: "Couple's Custom made Wedding Rings",
     desc: "Boz Diamonds - Lagos ",
   },
+  {
+    name: "Bride’s shoes",
+    desc: "Rene caovalli- Italy, Mach & Mach - Georgia, Aquazzura - Italy, Amina Muaddi - Paris, Jimmy choo - Malaysia    ",
+  },
+  {
+    name: "Bride’s traditional MUA",
+    desc: "Edens Glam - Lagos",
+  },
+  {
+    name: "Couple's Traditional wedding fabric",
+    desc: "George by Ruvero - Lagos, Vbj Fabrics- Uyo ",
+  },
+  {
+    name: "Bride's Traditional wedding robe ",
+    desc: "Concordia Atelier - Uyo",
+  },
+  {
+    name: "Bride’s traditional dress ",
+    desc: "Veekee James - Lagos",
+  },
+  {
+    name: "Bride’s second Traditional dress",
+    desc: "Lakimmy Fashion - Port harcourt",
+  },
+  {
+    name: "Bride’s Third Traditional dress",
+    desc: "Idiolnupo - Lagos",
+  },
+  {
+    name: "Bride's Traditional wedding fourth dress ",
+    desc: "Concordia Atelier - Uyo ",
+  },
+  {
+    name: "Bride's Jewelries ",
+    desc: "Definishon by Yuudee (Custom made) - Lagos, Rf_accessories - Lagos ",
+  },
+  {
+    name: "Bride's Gele ",
+    desc: "Enny Gele- Lagos ",
+  },
+  {
+    name: "Asoebi Girls Gele ",
+    desc: "Kemcys Touch - UYO",
+  },
+  {
+    name: "Bride Mother's Traditional wedding dress ",
+    desc: "Concordia Atelier- Uyo",
+  },
+  {
+    name: "Bride Mother's Gele ",
+    desc: "Enny Gele - Lagos, Kemcys Touch - Uyo ",
+  },
+  {
+    name: "Bride's White Wedding Makeup",
+    desc: "Ariyike Glams - Lagos",
+  },
+  {
+    name: "Bride's White wedding hair stylist",
+    desc: "Hairbysleame - Lagos",
+  },
+  {
+    name: "Bride's first wedding robe ",
+    desc: "Veekee James - Lagos",
+  },
+  {
+    name: "Bride's second wedding robe",
+    desc: "Lakimmy Fashion - Portharcourt",
+  },
+  {
+    name: "Bride's Bouquet",
+    desc: "Regal flowers - Abuja, All bellaz  - Lagos",
+  },
+  {
+    name: "Bride's first wedding dress ",
+    desc: "Concordia Atelier - Uyo",
+  },
+  {
+    name: "Bride's white wedding dress",
+    desc: "Matopeda Atelier - Lagos",
+  },
+  {
+    name: "Bride's reception dress",
+    desc: "Matopeda Atelier - Lagos",
+  },
+  {
+    name: "Bride's After party dress",
+    desc: "Concordia Atelier - Uyo",
+  },
+  {
+    name: "Bridesmaid's shoes ",
+    desc: "Simmi London - United Kingdom",
+  },
+  {
+    name: "Bridesmaid's Robe ",
+    desc: "Geniz Fashion - Uyo ",
+  },
+  {
+    name: "Bridesmaid's dresses",
+    desc: "Concordia Atelier- Uyo ",
+  },
+  {
+    name: "Bridesmaid's Makeup ",
+    desc: "Lizzy makeover - Uyo, Sunshine Makup Artistry - Uyo, Mimz Makeovers - Uyo",
+  },
+  {
+    name: "Bridesmaid's Hairstylist",
+    desc: "Justpretty - Uyo",
+  },
+  {
+    name: "Bride's mother's Church Dress ",
+    desc: "Geniz Fashion - Uyo ",
+  },
+  {
+    name: "Bride Mother's Reception Dress ",
+    desc: "Concordia Atelier - Uyo ",
+  },
+  {
+    name: "Bride Mother's Headpiece",
+    desc: "Chic_elle NG",
+  },
+  {
+    name: "Groom’s traditional wear and Hat",
+    desc: "Aniferaz - Uyo",
+  },
+  {
+    name: "Groom’s Suit ",
+    desc: "Jaxgrehman Bespoke - Lagos",
+  },
+  {
+    name: "Groom’s second suit ",
+    desc: "Aniferaz  - Uyo",
+  },
+  {
+    name: "Groom’s haircut",
+    desc: "Aniekan Juice - Uyo",
+  },
+  {
+    name: "Groom’s shoes",
+    desc: "Cesare Paciotti  - Italy, Blinzxstitches - Uyo",
+  },
+  {
+    name: "Groomsmen Designer",
+    desc: "Ray Johnson - Uyo, Aresclothier - Uyo, Esteem Ugobest - Uyo",
+  },
+  {
+    name: "Wedding Decoration",
+    desc: "Magic Touch - Enugu, Traditional Wedding, Dezua Events - portharcourt, White wedding",
+  },
+  {
+    name: "Caterers",
+    desc: "Anos Kitchen, Achradams kitchen",
+  },
+  {
+    name: "Security  Team",
+    desc: "U3U  - Uyo,Venus security - Uyo",
+  },
   // {
   //   name: "DJ",
   //   desc: "Slimvee - Enugu",
@@ -610,6 +766,8 @@ const displayPictures = () =>{
     photoGallery.innerHTML = showPicture;
     showVendor = displayVendor.join('')
     vendorList.innerHTML = showVendor;
+
+
 }
 
 

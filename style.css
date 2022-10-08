@@ -257,6 +257,7 @@ hr{
   padding-top: 50px;
   font-family: 'Kaushan Script', cursive;
   background-color: var(--pri-clr4);
+  background-color: #333;
 
 }
 .vendorText{
@@ -276,9 +277,11 @@ hr{
 
   }
 
-/* .wed-gift{
+.wed-gift2{
+  color: var(--pri-clr4);
 
-} */
+
+}
 
 #couple {
   width: 100%;
@@ -550,7 +553,7 @@ hr{
   justify-content: space-between;
   align-items: center;
  }
- .col-4{ 
+ .col-4, .col-5{ 
   padding: 0px;
   max-width:  300px;
   margin: 0 0 50px 50px;
@@ -563,6 +566,14 @@ hr{
 .col-4 img:hover{
   transform: scale(1.4);
 }
+/* .vendor-list{
+   display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  justify-content: space-between;
+  align-items: center;
+
+} */
 
 @media screen and (max-width: 600px){
   .photo-gallery, .vendor-list{
@@ -576,7 +587,7 @@ hr{
 
 
 footer{
-  background-color: #333;
+  background-color: black;
   height: 20px;
   color: #fff;
   text-align: center;
