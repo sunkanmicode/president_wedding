@@ -584,14 +584,15 @@ hr{
   margin: 0 0 50px 50px;
   justify-content: center;
   align-items: center;
-  background-color: #555;
+  background-color: var(--pri-clr5);
   border-radius: 20px;
 
  }
  .col-5 p{
+  color: #333;
   text-align: center;
   font-weight: bolder;
-  font-family: 'monospace';
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   /* align-self: center; */
  }
 

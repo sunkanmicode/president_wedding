@@ -545,7 +545,7 @@ const vendors = [
   },
   {
     name: "Photography ",
-    desc: "Sabie gal - Lagos, David Ovu - Uyo",
+    desc: "Sabie gal - Lagos <br>David Ovu - Uyo",
   },
   {
     name: "Videography",
@@ -557,7 +557,7 @@ const vendors = [
   },
   {
     name: "Wedding MC",
-    desc: "Who Kes- Calabar, MC Governor - Uyo",
+    desc: "Who Kes- Calabar <br> MC Governor - Uyo",
   },
   {
     name: "Event planner ",
@@ -573,7 +573,7 @@ const vendors = [
   },
   {
     name: "Bride’s shoes",
-    desc: "Rene caovalli- Italy, Mach & Mach - Georgia, Aquazzura - Italy, Amina Muaddi - Paris, Jimmy choo - Malaysia    ",
+    desc: "Rene caovalli- Italy <br> Mach & Mach - Georgia <br> Aquazzura - Italy <br> Amina Muaddi - Paris <br> Jimmy choo - Malaysia    ",
   },
   {
     name: "Bride’s traditional MUA",
@@ -581,7 +581,7 @@ const vendors = [
   },
   {
     name: "Couple's Traditional wedding fabric",
-    desc: "George by Ruvero - Lagos, Vbj Fabrics- Uyo ",
+    desc: "George by Ruvero - Lagos <br> Vbj Fabrics- Uyo ",
   },
   {
     name: "Bride's Traditional wedding robe ",
@@ -605,12 +605,12 @@ const vendors = [
   },
   {
     name: "Bride's Jewelries ",
-    desc: "Definishon by Yuudee (Custom made) - Lagos, Rf_accessories - Lagos ",
+    desc: "Definishon by Yuudee (Custom made) - Lagos <br> Rf_accessories - Lagos ",
   },
-  {
-    name: "Bride's Gele ",
-    desc: "Enny Gele- Lagos ",
-  },
+  // {
+  //   name: "Bride's Gele ",
+  //   desc: "Enny Gele- Lagos ",
+  // },
   {
     name: "Asoebi Girls Gele ",
     desc: "Kemcys Touch - UYO",
@@ -621,7 +621,7 @@ const vendors = [
   },
   {
     name: "Bride Mother's Gele ",
-    desc: "Enny Gele - Lagos, Kemcys Touch - Uyo ",
+    desc: "Enny Gele - Lagos,\ <br>  Kemcys Touch - Uyo ",
   },
   {
     name: "Bride's White Wedding Makeup",
@@ -641,7 +641,7 @@ const vendors = [
   },
   {
     name: "Bride's Bouquet",
-    desc: "Regal flowers - Abuja, All bellaz  - Lagos",
+    desc: "Regal flowers - Abuja <br> All bellaz  - Lagos",
   },
   {
     name: "Bride's first wedding dress ",
@@ -673,7 +673,7 @@ const vendors = [
   },
   {
     name: "Bridesmaid's Makeup ",
-    desc: "Lizzy makeover - Uyo, Sunshine Makup Artistry - Uyo, Mimz Makeovers - Uyo",
+    desc: "Lizzy makeover - Uyo <br> Sunshine Makup Artistry - Uyo <br> Mimz Makeovers - Uyo",
   },
   {
     name: "Bridesmaid's Hairstylist",
@@ -709,23 +709,23 @@ const vendors = [
   },
   {
     name: "Groom’s shoes",
-    desc: "Cesare Paciotti  - Italy, Blinzxstitches - Uyo",
+    desc: "Cesare Paciotti  - Italy <br> Blinzxstitches - Uyo",
   },
   {
     name: "Groomsmen Designer",
-    desc: "Ray Johnson - Uyo, Aresclothier - Uyo, Esteem Ugobest - Uyo",
+    desc: "Ray Johnson - Uyo <br> Aresclothier - Uyo <br> Esteem Ugobest - Uyo",
   },
   {
     name: "Wedding Decoration",
-    desc: "Magic Touch - Enugu, Traditional Wedding, Dezua Events - portharcourt, White wedding",
+    desc: "Magic Touch - Enugu <br> Traditional Wedding <br> Dezua Events - portharcourt <br> White wedding",
   },
   {
     name: "Caterers",
-    desc: "Anos Kitchen, Achradams kitchen",
+    desc: "Anos Kitchen <br> Achradams kitchen",
   },
   {
     name: "Security  Team",
-    desc: "U3U  - Uyo,Venus security - Uyo",
+    desc: "U3U  - Uyo <br>Venus security - Uyo",
   },
   // {
   //   name: "Website design",
